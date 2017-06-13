@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#ff67c100</color>-->
+    <color name="colorPrimary">#ff052f5f</color>
+    <color name="colorPrimaryDark">#00234b</color>
+    <color name="colorAccent">#00234b</color>
+    <color name="color">#ffffff</color>
+    <color name="colorr">#e7f7e8</color>
+    <color name="colorrr">#ffffff</color>
+    <color name="colorrrr">#000000</color>
+
+    <color name="primaryColor_blue">#ff0a3263</color>
+    <color name="primaryColorDark_blue">#ff0a3263</color>
+    <color name="primaryAccent_blue">#ff0a3263</color>
+
+    <color name="primaryColor_red">#fff91111</color>
+    <color name="primaryColorDark_red">#fff91111</color>
+    <color name="primaryAccent_red">#fff91111</color>
+
+    <color name="primaryColor_green">#ff6a9c79</color>
+    <color name="primaryColorDark_green">#ff6a9c79</color>
+    <color name="primaryAccent_green">#ff6a9c79</color>
+
+    <color name="primaryColor_black">#000000</color>
+    <color name="primaryColorDark_black">#000000</color>
+    <color name="primaryAccent_black">#000000</color>
+
+    <color name="primaryColor_purple">#ffb670c2</color>
+    <color name="primaryColorDark_purple">#ffb670c2</color>
+    <color name="primaryAccent_purple">#ffb670c2</color>
+
+    <color name="primaryColor_orange">#ffff7111</color>
+    <color name="primaryColorDark_orange">#ffff7111</color>
+    <color name="primaryAccent_orange">#ffff7111</color>
+
+    <color name="primaryColor_leather">#ff322218</color>
+    <color name="primaryColorDark_leather">#ff322218</color>
+    <color name="primaryAccent_leather">#ff322218</color>
+
+
+</resources>

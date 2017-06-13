@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <style name="AppTheme.Blue" parent="Theme.AppCompat">
+            <item name="colorPrimary">@color/primaryColor_blue</item>
+            <item name="colorPrimaryDark">@color/primaryColorDark_blue</item>
+            <item name="colorAccent">@color/primaryAccent_blue</item>
+            <item name="backgroundColor">@color/primaryColorDark_blue</item>
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+            <item name="android:windowFullscreen">true</item>
+            <item name="windowBackground">@drawable/navy1</item>
+        </style>
+
+    <style name="AppTheme.Green" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/primaryColor_green</item>
+        <item name="colorPrimaryDark">@color/primaryColorDark_green</item>
+        <item name="colorAccent">@color/primaryAccent_green</item>
+        <item name="backgroundColor">@color/primaryColorDark_green</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowBackground">@drawable/transparent</item>
+    </style>
+    <style name="AppTheme.Black" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/primaryColor_black</item>
+        <item name="colorPrimaryDark">@color/primaryColorDark_black</item>
+        <item name="colorAccent">@color/primaryAccent_black</item>
+        <item name="backgroundColor">@color/primaryColorDark_black</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowBackground">@drawable/grey</item>
+    </style>
+
+    <style name="AppTheme.Leather" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/primaryColor_leather</item>
+        <item name="colorPrimaryDark">@color/primaryColorDark_leather</item>
+        <item name="colorAccent">@color/primaryAccent_leather</item>
+        <item name="backgroundColor">@color/primaryColorDark_leather</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowBackground">@drawable/leather1</item>
+    </style>
+
+
+
+
+</resources>
