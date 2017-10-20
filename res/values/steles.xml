@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <style name="AppTheme.Blue" parent="Theme.AppCompat.Light">
+            <item name="colorPrimary">@color/primaryColor_blue</item>
+            <item name="colorPrimaryDark">@color/primaryColorDark_blue</item>
+            <item name="colorAccent">@color/primaryAccent_blue</item>
+            <item name="backgroundColor">@color/primaryColorDark_blue</item>
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+            <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+            <item name="actionOverflowButtonStyle">@style/OverFlow</item>
+
+        </style>
+
+    <style name="AppTheme.Green" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/primaryColor_green</item>
+        <item name="colorPrimaryDark">@color/primaryColorDark_green</item>
+        <item name="colorAccent">@color/primaryAccent_green</item>
+        <item name="backgroundColor">@color/primaryColorDark_green</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="actionOverflowButtonStyle">@style/OverFlow</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+
+    </style>
+
+
+    <style name="AppTheme.Leather" parent="Base.Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/primaryColor_leather</item>
+        <item name="colorPrimaryDark">@color/primaryColorDark_leather</item>
+        <item name="colorAccent">@color/primaryAccent_leather</item>
+        <item name="actionOverflowButtonStyle">@style/OverFlow</item>
+        <item name="backgroundColor">@color/primaryColorDark_leather</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+
+    </style>
+
+
+
+
+</resources>

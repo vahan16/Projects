@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vahan.simplecursonadapter.Settings1"
+    android:orientation="vertical">
+
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings"
+            android:textAlignment="viewStart"
+            android:textColor="@color/color"
+            android:textSize="22sp"
+            />
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <TextView
+        android:id="@+id/textView4"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/set_password"
+        android:textAllCaps="false"
+        android:textColor="@color/grey"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:background="@android:color/transparent"
+        android:text="@string/password"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="11dp"
+            android:text="@string/theme"
+            android:textAllCaps="false"
+            android:textColor="@color/grey"
+            android:textSize="14sp"/>
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/textView7"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/language"
+        android:textAllCaps="false"
+        android:textColor="@color/grey"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="44dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/arme"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="/"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="44dp"
+            android:layout_height="30dp"
+            android:background="@drawable/russ"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle"
+            />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="/"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="37dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.04"
+            android:background="@drawable/eng"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle"/>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/bannerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.startapp.android.publish.ads.banner.Banner
+            android:id="@+id/startAppBanner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+</LinearLayout>

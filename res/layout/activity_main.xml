@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorr"
+    tools:context="com.example.vahan.simplecursonadapter.NoteActivity"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/relaticel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignWithParentIfMissing="false"
+                android:layout_centerHorizontal="false"
+                android:layout_centerInParent="true"
+                android:paddingTop="150dp"
+                android:text="@string/no_notes"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="20dp"
+                app:srcCompat="@drawable/ic_speaker_notes_off_black_24dp"/>
+        </RelativeLayout>
+
+
+        <com.startapp.android.publish.ads.banner.Banner
+            android:id="@+id/startAppBanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="22dp"
+            android:layout_marginEnd="19dp"
+            app:backgroundTint="?attr/colorPrimary"
+            app:srcCompat="@drawable/plus"/>
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="22dp"
+            android:layout_marginEnd="19dp"
+            app:backgroundTint="?attr/colorPrimary"
+            app:srcCompat="@drawable/ic_note_add_black_24dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="22dp"
+            android:layout_marginEnd="19dp"
+            android:layout_margin="@dimen/fab_margin"
+            app:backgroundTint="?attr/colorPrimary"
+            app:srcCompat="@drawable/ic_brush_black_24dp" />
+
+        <ListView
+            android:id="@+id/lvData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+
+    </RelativeLayout>
+
+</LinearLayout>

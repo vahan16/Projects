@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:windowSoftInputMode="stateVisible"
+
+              android:layout_height="match_parent"
+              android:background="@color/colorr"
+              tools:context="com.example.vahan.simplecursonadapter.AddNote"
+              android:orientation="vertical"
+              android:weightSum="1">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme">
+
+            <ToggleButton
+                android:id="@+id/toggleButton4"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="140dp"
+                android:layout_weight="1"
+                android:background="@drawable/alarm"
+                android:text="@string/alarm"
+                android:textOff=""
+                android:textOn=""/>
+
+            <ToggleButton
+                android:id="@+id/toggleButton9"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/check"
+                android:text="@string/password"
+                android:textOff=""
+                android:textOn=""
+                tools:ignore="HardcodedText,RtlHardcoded"/>
+        </android.support.v7.widget.Toolbar>
+
+
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="@string/your_note_name"
+        android:inputType="textPersonName"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"
+        android:textStyle="bold"
+        tools:ignore="LabelFor"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="keyedit"
+        android:ems="10"
+        android:gravity="top|left"
+        android:hint="@string/Your_note_here"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"
+        android:textSize="18sp"
+        tools:ignore="ContentDescription,HardcodedText,LabelFor"
+        />
+
+    <RelativeLayout
+        android:id="@+id/bannerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.startapp.android.publish.ads.banner.Banner
+            android:id="@+id/startAppBanner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

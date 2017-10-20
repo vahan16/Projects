@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Գրառումներ</string>
+    <string name="delete_record">Ջնջել գրառումը</string>
+    <string name="edit_note">Փոփոխել</string>
+    <string name="edit_note_here">Փոփոխել գրառումը</string>
+    <string name="edit_note_name">Փոփոխել գրառման անունը</string>
+    <string name="deleteAll">Ջնջել բոլորը</string>
+    <string name="password">Գաղտնաբառ</string>
+    <string name="settings">Կարգավորումներ</string>
+    <string name="prefs_theme_key">Գույներ</string>
+    <string name="your_note_name">Ձեր գրառման անունը</string>
+    <string name="add_note">Ավելացնել</string>
+    <string name="create_password">Ստեղծել գաղտնաբառ</string>
+    <string name="language">Լեզու</string>
+    <string name="set_password">Ավելացնել գաղտնաբառ</string>
+    <string name="theme">Գույներ</string>
+    <string name="en">en</string>
+    <string name="hy">hy</string>
+    <string name="rs">ru</string>
+    <string name="ok">Հաստատել</string>
+    <string name="Notes">Գրառումներ</string>
+    <string name="Your_note_here">Ձեր գրառումը</string>
+    <string name="Searchsomething">Որոնել ինչ-որ բան</string>
+    <string name="Password_set">Գաղտնաբառն ավելացված է</string>
+    <string name="Note_added">Գրառումն ավելացված է</string>
+    <string name="Created">Ստեղծված՝</string>
+    <string name="Nothing_to_save">Պահպանելու ոչինչ չկա</string>
+    <string name="Edited">/ Փոփոխված՝</string>
+    <string name="Note_edited">Գրառումը փոփոխված է</string>
+    <string name="Nothing_to_edit">Փոփոխելու ոչինչ չկա</string>
+    <string name="Password">Գաղտնաբառ</string>
+    <string name="click_here_to_clear_drawing">Մաքրել նկարը</string>
+    <string name="drawing">Նկարչություն</string>
+    <string name="start_new">Նոր</string>
+    <string name="brush">Մատիտ</string>
+    <string name="erase">Ռետին</string>
+    <string name="save">Պահպանել</string>
+    <string name="paint">Նկարել</string>
+    <string name="sml">Small</string>
+    <string name="med">Medium</string>
+    <string name="lrg">Large</string>
+    <string name="Image_saved_to_gallery">Նկարը պահպանված է "Drawings" թղթապանակում</string>
+    <string name="write_your_password">Հավաքեք ձեր գաղտնաբառը</string>
+    <string name="search">Որոնում</string>
+    <string name="sure">Դուք վստա՞հ եք,որ ցանկանում եք դուրս գալ</string>
+
+    <string name="pref_dark_theme">pref_dark_theme</string>
+    <string name="pref_theme">pref_theme</string>
+    <string name="pref_theme_value_blue">blue</string>
+    <string name="pref_theme_value_green">green</string>
+    <string name="pref_theme_value_brown">brown</string>
+    <string name="yes">Այո</string>
+    <string name="no">Ոչ</string>
+    <string name="no_notes">Դուք գրառումներ չունեք։\nԱվելացրեք սեղմելով + նշանը</string>
+    <string name="drawings">Նկարներ</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="pref_theme_options">
+        <item><b>Կապույտ</b></item>
+        <item><b>Կանաչ</b></item>
+        <item><b>Կարմիր</b></item>
+    </string-array>
+    <string-array name="pref_theme_values">
+        <item>@string/pref_theme_value_blue</item>
+        <item>@string/pref_theme_value_green</item>
+        <item>@string/pref_theme_value_brown</item>
+    </string-array>
+
+    <string name="save_drawing">Save drawing</string>
+    <string name="save_drawing_to_deviceGallery">Պահպանե՞լ նկարը</string>
+    <string name="new_drawing">Նոր նկար</string>
+    <string name="delete_drawing">ջնջել նկարը</string>
+    <string name="share_drawing">Ուղարկել նկարը</string>
+    <string name="share_note">Ուղարկել գրառումը</string>
+    <string name="more_apps">Ծրագրեր</string>
+    <string name="alarm">Հիշեցնող</string>
+    <string name="new_password">New password</string>
+    <string name="old_password">Old password</string>
+    <string name="edit_password">Edit password</string>
+    <string name="press_Again">Please click back again to exit drawing</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>
