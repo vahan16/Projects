@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Yerevan Guide</string>
+    <string name="title_activity_maps">Yerevan Guide</string>
+    <string-array name="names">
+        <item>Museums</item>
+        <item>Theatres</item>
+        <item>Cinemas</item>
+        <item>Pharmacies</item>
+        <item>Cafeterias</item>
+    </string-array>
+    <string-array name="distances">
+        <item>1 km</item>
+        <item>2 km</item>
+        <item>5 km</item>
+        <item>10 km</item>
+    </string-array>
+</resources>
