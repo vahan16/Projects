@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vahan.tictactoe.MainActivity">
+
+    <include layout="@layout/content_main" />
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        >
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:weightSum="1">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_weight="0.20"
+                app:srcCompat="@drawable/tac"
+                android:contentDescription=""
+                tools:ignore="ContentDescription">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="200dp"
+                android:layout_height="46dp"
+                android:text="@string/tictactoe"
+                android:textColor="@color/color"
+                android:textSize="30sp">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="clickToPlay"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="right"
+                app:srcCompat="@drawable/buttonr"
+                tools:ignore="ContentDescription,RtlHardcoded">
+
+            </ImageView>
+        </android.support.v7.widget.Toolbar>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

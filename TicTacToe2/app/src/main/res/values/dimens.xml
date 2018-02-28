@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="item1_button_min_width">56dip</dimen>
+
+</resources>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/NoActionBar"
+    tools:context="vahan.mycamera.Main2Activity">
+
+    <FrameLayout
+        android:id="@+id/camPreview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"></ImageView>
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/capture"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/white"></ImageView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="false"
+        android:background="@color/colorTransparent" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorTransparent"
+        android:clickable="false" />
+
+    <Button
+        android:id="@+id/capture"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/shutter" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/flash"
+        android:textOff=""
+        android:textOn="" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/toggleButton"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/flip"
+        android:textOff=""
+        android:textOn="" />
+
+    <Button
+        android:id="@+id/Resolution"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="16:9"
+        android:textAlignment="center"
+        android:textSize="10sp" />
+
+    <HorizontalScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorTransparent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:text="None"
+                android:textAllCaps="false"
+                android:textSize="9sp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="Mono"
+                android:textAllCaps="false"
+                android:textSize="9sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="Aqua"
+                android:textAllCaps="false"
+                android:textSize="9sp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="Posterize"
+                android:textAllCaps="false"
+                android:textSize="9sp" />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/button6"
+        android:background="@drawable/ic_photo_filter_black_24dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/capture"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp" />
+
+</RelativeLayout>
